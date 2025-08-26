@@ -1,4 +1,4 @@
-import { Logout } from "./Logout"
+import { UserButton } from "@clerk/clerk-react"
 
 export const Appbar = () => {
     return (
@@ -9,7 +9,7 @@ export const Appbar = () => {
                 ShoppyMart
             </div>
             <div className="pt-2">
-                <Logout />
+                <UserButton />
             </div>
         </div>
     )
